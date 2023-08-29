@@ -69,7 +69,6 @@ export class ConvertComponent {
   }
 
   updateFromFlagImage() {
-    console.log(this.data);
     if (this.data.length == 0) return;
 
     const image = this.data.find((item: any) => {

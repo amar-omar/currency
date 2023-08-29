@@ -1,6 +1,6 @@
 <div *ngIf="this.data?.length">
   <form class="form-content" [formGroup]="form" (ngSubmit)="submitForm($event)">
-    <div style="margin-bottom: 2rem">
+    <div class="mb-2">
       <div class="row">
         <div class="col-4">
           <label for="exampleFormControlInput1" class="form-label field-labels"
@@ -28,9 +28,9 @@
             <div class="compare-div-form-row row">
               <div class="col-3">
                 <img
+                  class="compare-div-form-img"
                   src="{{ fromflagImagePath }}"
                   alt=""
-                  style="width: 100%; border-radius: 1.5rem"
                 />
               </div>
 
@@ -61,34 +61,15 @@
 
       <div class="row">
         <div class="col-6">
-          <div class="row" style="flex-direction: column">
-            <div style="margin-bottom: 1rem">
+          <div class="row flex-column">
+            <div class="mb-1">
               <label
                 for="exampleFormControlTextarea1"
                 class="form-label field-labels"
                 >Targeted Currency</label
               >
-              <div
-                style="
-                  width: 100%;
-                  height: 5rem;
-                  border-radius: 2.2rem;
-                  background-color: white;
-                  padding: 0.6rem;
-                  display: flex;
-                  align-items: center;
-                  justify-content: space-between;
-                "
-              >
-                <div
-                  class="row"
-                  style="
-                    height: 5rem;
-                    border-radius: 2.2rem;
-                    align-items: center;
-                    justify-content: space-between;
-                  "
-                >
+              <div class="compare-div-target">
+                <div class="row compare-div-form-row">
                   <div class="col-3">
                     <img
                       src="{{ target1ImagePath }}"

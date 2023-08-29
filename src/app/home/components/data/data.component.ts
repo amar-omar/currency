@@ -16,7 +16,6 @@ export class DataComponent implements OnInit {
     this.currencyService.getCurriencies().subscribe(
       (data: any) => {
         this.fetchedData = Object.keys(data.conversion_rates);
-        console.log(this.fetchedData);
       },
       (error) => {
         console.error('Error fetching data:', error);
