@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { AddFavoriteComponent } from './add-favorite.component';
 
 describe('AddFavoriteComponent', () => {

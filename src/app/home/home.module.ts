@@ -5,8 +5,6 @@ import { HomeRoutingModule } from './home-routing.module';
 import { ConvertCompareComponent } from './components/convert-compare/convert-compare.component';
 import { CurrencyListComponent } from './components/currency-list/currency-list.component';
 import { AddFavoriteComponent } from './components/add-favorite/add-favorite.component';
-import { FavoriteListComponent } from './components/favorite-list/favorite-list.component';
-import { CurrencyComponent } from './components/currency/currency.component';
 import { ContainerComponent } from './components/container/container.component';
 
 @NgModule({
@@ -14,14 +12,8 @@ import { ContainerComponent } from './components/container/container.component';
     ConvertCompareComponent,
     CurrencyListComponent,
     AddFavoriteComponent,
-    FavoriteListComponent,
-    CurrencyComponent,
     ContainerComponent,
-    
   ],
-  imports: [
-    CommonModule,
-    HomeRoutingModule
-  ]
+  imports: [CommonModule, HomeRoutingModule],
 })
-export class HomeModule { }
+export class HomeModule {}
