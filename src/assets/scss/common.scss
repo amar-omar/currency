@@ -1,3 +1,17 @@
-body{
-    background-image: url(../images/bg.png);
+ body{
+    font-family: Poppins;
+    // background-image: url(../images/bg.png);
+}
+
+.modal{
+    background-color: #0000004c;
+    .modal-dialog{
+        margin-right: 8%;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+
+    .modal-content{
+        border: none;
+    }
 }
