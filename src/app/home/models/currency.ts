@@ -6,8 +6,15 @@ export interface ICurrency {
   value?: number;
 }
 
+export interface ICurrencyResponse{
+  data: ICurrency[];
+  message: string;
+}
+
 export interface ICodesResponse {
-  conversion_rates: {
+data:{
+   conversion_rates: {
     [code: string]: number;
   };
+}
 }
