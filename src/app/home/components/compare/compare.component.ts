@@ -48,9 +48,7 @@ export class CompareComponent {
     });
   }
 
-  submitForm(event: Event) {
-    event.preventDefault();
-    event.stopPropagation();
+  compareForm() {
 
     // Get the form data
     const formData = this.form.getRawValue();

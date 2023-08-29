@@ -1,6 +1,9 @@
 <div *ngIf="this.data?.length">
-  <form class="form-content" [formGroup]="form" (ngSubmit)="submitForm($event)">
-    <div class="mb-2">
+  <mat-form
+    class="form-content"
+    [formGroup]="form"
+  >
+    <div class="mb-3">
       <div class="row">
         <div class="col-4">
           <label for="exampleFormControlInput1" class="form-label field-labels"
@@ -50,6 +53,7 @@
                     fromISO="item"
                     value="{{ item.code }}"
                   >
+                    <img src="{{ item.icon_url }}" width="20px" height="10px" />
                     {{ item.name }}
                   </mat-option>
                 </mat-select>
@@ -62,7 +66,7 @@
       <div class="row">
         <div class="col-6">
           <div class="row flex-column">
-            <div class="mb-1">
+            <div class="mb-3">
               <label
                 for="exampleFormControlTextarea1"
                 class="form-label field-labels"
@@ -94,6 +98,11 @@
                         fromISO="item"
                         value="{{ item.code }}"
                       >
+                        <img
+                          src="{{ item.icon_url }}"
+                          width="20px"
+                          height="10px"
+                        />
                         {{ item.name }}
                       </mat-option>
                     </mat-select>
@@ -163,6 +172,11 @@
                       >
 
                       <mat-option *ngFor="let item of data" [value]="item.code">
+                        <img
+                          src="{{ item.icon_url }}"
+                          width="20px"
+                          height="10px"
+                        />
                         {{ item.name }}
                       </mat-option>
                     </mat-select>
@@ -197,9 +211,9 @@
         background-color: #0e98d0;
       "
       class="btn"
-      type="submit"
+      (click)="compareForm()"
     >
       Compare
     </button>
-  </form>
+  </mat-form>
 </div>
