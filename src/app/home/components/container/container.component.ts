@@ -12,6 +12,8 @@ export class ContainerComponent {
   currencies: ICurrency[] =
     JSON.parse(localStorage.getItem('curencies') || '[]') ?? [];
 
+  data: ICurrency[] = [];
+
   constructor(private currencyService: CurrencyService) {
     this.currencyService.getCurrenciesValues().subscribe((data) => {
       this.currencies = data.map((e) => {
