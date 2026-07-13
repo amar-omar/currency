@@ -1,4 +1,22 @@
 # Currency
+## ✨ Features
+
+- Currency Conversion: Users can convert currencies from one type to another using real-time exchange rates.
+- Currency Comparison: Users can compare the values of two equivalent currencies.
+- favourites: users can select their favourire currencies, add them to thier protoflio and they are updated continously.
+- Responsive Design: The website is designed to work seamlessly on various devices, from desktop to mobile.
+
+## Technologies Used
+-Angular
+-TypeScript
+-Sass
+-Tailwind CSS
+## screenshoots
+![Currency Conversion](https://github.com/user-attachments/assets/87a1f196-30e1-4072-89a8-4edf3546274e).
+![currency Comparison](https://github.com/user-attachments/assets/eb7a109f-27aa-4a66-addc-919e30e44007).
+![favourite](https://github.com/user-attachments/assets/d88636e7-e27a-45e4-83e3-bb185659ee8c).
+![responsive design](https://github.com/user-attachments/assets/02bb9ad6-2d8a-440d-8f5f-09afcf1859dd),
+![](https://github.com/user-attachments/assets/91d3a1dd-bef1-4293-9470-2a5996a3b912)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
