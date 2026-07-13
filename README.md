@@ -15,19 +15,19 @@
 - 
 ## screenshoots
 
-###Currency Conversion
+### Currency Conversion
 
 ![Currency Conversion](https://github.com/user-attachments/assets/87a1f196-30e1-4072-89a8-4edf3546274e)
 
-###currency Comparison
+### currency Comparison
 
 ![currency Comparison](https://github.com/user-attachments/assets/eb7a109f-27aa-4a66-addc-919e30e44007)
 
-###favourite
+### favourite
 
 ![favourite](https://github.com/user-attachments/assets/d88636e7-e27a-45e4-83e3-bb185659ee8c)
 
-###responsive design
+### responsive design
 
 ![responsive design](https://github.com/user-attachments/assets/02bb9ad6-2d8a-440d-8f5f-09afcf1859dd)
 
